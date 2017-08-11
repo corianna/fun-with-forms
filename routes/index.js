@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Fun with Forms!' });
+  res.render('index', { title: 'Drink your hot coffee' });
 });
 
 router.post('/complete', function(req, res, next) {

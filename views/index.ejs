@@ -11,10 +11,36 @@
       <form action='/complete' method='post'>
       <fieldset>
         <legend>Email Submission (fake)</legend>
+
         <label for='name'>Enter name: </label>
-        <input id='name-input' type='text' name='name' placeholer'Enter your name' value='' required/>
+        <input id='name-input' type='text' name='name' placeholder='Enter your name' value='' required />
+
         <label for='email'>Enter email: </label>
-        <input id='name-input' type='email' name='email' placeholer'you@somewhere.outthere' value='' required />
+        <input id='imail-input' type='email' name='email' placeholder='you@somewhere.outthere' value='' required />
+
+        <label for="phone">Enter your phone:"></label>
+        <input type="phone" id="phone-input" required 
+        placeholder="555-555-5555" value="" required />
+
+
+        <label for="subject"> Enter your subject</label>
+        <input type="text" id="text-input" name="subject"
+        placeholder="any subject go here" value="" required />
+
+
+        <label for="date">Enter the date</label>
+        <input type="date" id="date-input" name="contactBy"
+        placeholder="mm/dd/yyyy" value="" required />
+
+        <label for"age">Enter your age</label>
+        <input type="age" id="age-input" name="age"
+        placeholder="00" value="" />
+
+        <label for="coffe">Enter your favorite coffee </label>
+        <input type="coffee" id="coffee-input" name="coffee"
+        placeholder="type of coffee" value="" />
+
+
         <input type='submit' value='Send Email' />
       </fieldset>
       </form>
